@@ -6,6 +6,7 @@ Coups spéciaux : Roque petit/grand, Prise en passant, Promotion interactive
 
 from __future__ import annotations
 
+import pytest
 import copy
 import os
 import sys
