@@ -1,8 +1,10 @@
 # ♟️ Jeu d'Échecs — Python / Pygame
 
 Jeu d'échecs graphique en Python avec interface pygame, intelligence artificielle et gestion complète des règles officielles.
+<p align="center">
+  <img src="images/screenshot.png" alt="Screenshot du jeu d'échecs" width="700">
+</p>
 
----
 
 ## Prérequis
 
@@ -13,7 +15,7 @@ Jeu d'échecs graphique en Python avec interface pygame, intelligence artificiel
 pip install pygame
 ```
 
----
+
 
 ## Lancement
 
@@ -28,7 +30,7 @@ Un menu s'affiche au démarrage. Choisissez votre mode de jeu :
 | **Humain vs IA** | Vous jouez les Blancs, l'IA joue les Noirs |
 | **2 Joueurs** | Deux joueurs s'affrontent sur le même écran |
 
----
+
 
 ## Comment jouer
 
@@ -43,7 +45,7 @@ Un menu s'affiche au démarrage. Choisissez votre mode de jeu :
 | `R` | Recommencer la partie (même mode) |
 | `Échap` | Retourner au menu principal |
 
----
+
 
 ## Coups spéciaux pris en charge
 
@@ -51,7 +53,7 @@ Un menu s'affiche au démarrage. Choisissez votre mode de jeu :
 - **Prise en passant** — capture diagonale d'un pion qui vient d'avancer de deux cases.
 - **Promotion de pion** — choix interactif parmi Dame, Tour, Cavalier ou Fou.
 
----
+
 
 ## Images des pièces (optionnel)
 
@@ -66,7 +68,7 @@ noir_fou.png     noir_cavalier.png  noir_pion.png
 
 Formats acceptés : `.png`, `.jpg`, `.jpeg`
 
----
+
 
 ## Architecture du code
 
@@ -85,7 +87,7 @@ chess.py
 └── App                       Boucle principale de l'application
 ```
 
----
+
 
 ## Ce que l'on apprend en lisant ce projet
 
@@ -119,7 +121,7 @@ Le calcul de l'IA s'exécute dans un **thread séparé** (`threading.Thread`) po
 ### 10. Rendu graphique avec pygame
 La classe `Renderer` gère l'intégralité de l'affichage : plateau, coordonnées, surbrillances, historique des coups, panneau d'information, popups. On y apprend les bases du rendu 2D avec pygame (surfaces, polices, `blit`, `draw`).
 
----
+
 
 ## Paramètres à modifier facilement
 
@@ -130,7 +132,7 @@ La classe `Renderer` gère l'intégralité de l'affichage : plateau, coordonnée
 | `PIECE_SCALE` | Taille des pièces (fraction de la case) | `0.78` |
 | `PANEL_W` | Largeur du panneau latéral | `260` |
 
----
+
 
 ## Limitations connues
 
