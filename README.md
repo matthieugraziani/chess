@@ -1,4 +1,4 @@
-# ♟️ Jeu d'Échecs — Python / Pygame
+# <p align="center">♟️ Jeu d'Échecs — Python / Pygame</p>
 
 Jeu d'échecs graphique en Python avec interface pygame, intelligence artificielle et gestion complète des règles officielles.
 <p align="center">
